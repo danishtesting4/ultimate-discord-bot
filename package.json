@@ -1,0 +1,17 @@
+{
+  "name": "ultimate-discord-bot",
+  "version": "1.0.0",
+  "description": "A fully working Discord bot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10"
+  }
+}
